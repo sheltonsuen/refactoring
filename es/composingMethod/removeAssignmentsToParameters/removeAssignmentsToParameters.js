@@ -7,6 +7,7 @@ export const foo = bar => {
 };
 
 export const afterRemoveAssignmentsToParameters_foo = bar => {
+
   if (bar.value < 0) {
     return {
       ...bar,

@@ -2,6 +2,7 @@ import {
   shouldLockAccount,
   afterConsolidateConditionalExpression_shouldLockAccount
 } from "../consolidateConditionalExpression";
+import { expect } from "chai";
 
 describe("consolidateConditionalExpression", () => {
   context("before consolidate conditional expression", () => {

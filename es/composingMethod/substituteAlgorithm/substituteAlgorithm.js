@@ -9,8 +9,8 @@ export const foundPerson = persons => {
 export const afterSubstituteAlgorithm_foundPerson = persons => {
   const candidates = ["Shelton", "Alex"];
 
-  for (person in persons) {
-    for (candidate in candidates) {
+  for (const person of persons) {
+    for (const candidate of candidates) {
       if (person.name === candidate) {
         return person;
       }

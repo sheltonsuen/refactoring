@@ -7,6 +7,7 @@
     "test:ava": "ava",
     "test:jest": "jest",
     "git-thru": "git-thru",
+    "test:mocha": "mocha --compilers js:@babel/register './es/**/*Specs.js'",
     "tsc": "./node_modules/typescript/bin/tsc",
     "ava": "ava",
     "ava:ts": "tsc && ava dist/**/__test__/**/*.test.js"
@@ -25,11 +26,19 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/register": "^7.0.0",
     "@types/jest": "^19.2.3",
     "ava": "^0.18.2",
+    "chai": "^4.2.0",
     "git-thru": "^1.0.0",
     "jest": "^20.0.3",
+    "mocha": "^5.2.0",
     "sinon": "^2.1.0",
+    "sinon-chai": "^3.2.0",
     "ts-jest": "^20.0.4",
     "tslint": "^5.2.0",
     "typescript": "^2.4.1"
@@ -37,5 +46,10 @@
   "dependencies": {
     "kotlin": "^1.1.3-2",
     "moment": "^2.18.1"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
   }
 }

@@ -3,6 +3,7 @@ import {
   afterRefactor_analysisPerson
 } from "../consolidateDuplicatedConditionalFragments";
 import { sandbox } from "sinon";
+import { expect } from "chai";
 
 const sinon = sandbox.create();
 

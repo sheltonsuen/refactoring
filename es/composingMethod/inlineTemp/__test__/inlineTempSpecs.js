@@ -1,4 +1,5 @@
 import { isAFatMan, afterInlineTemp_isAFatMan } from "../inlineTemp";
+import { expect } from "chai";
 
 describe("inline temp", () => {
   context("before inline temp", () => {

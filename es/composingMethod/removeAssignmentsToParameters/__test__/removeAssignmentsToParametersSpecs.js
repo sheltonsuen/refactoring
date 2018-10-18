@@ -2,6 +2,7 @@ import {
   foo,
   afterRemoveAssignmentsToParameters_foo
 } from "../removeAssignmentsToParameters";
+import { expect } from "chai";
 
 describe("removeAssignmentsToParameters", () => {
   context("before remove assignments to parameters", () => {
