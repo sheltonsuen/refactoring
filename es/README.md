@@ -10,3 +10,4 @@
 [x] Consolidate Conditional Expression
 [x] Consolidate Duplicated Conditional Fragments
 [x] Decompose Conditional
+[x] Remove Control Flag
