@@ -11,3 +11,4 @@
 [x] Consolidate Duplicated Conditional Fragments
 [x] Decompose Conditional
 [x] Remove Control Flag
+[x] Replace Conditional with Guard Clauses
