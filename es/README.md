@@ -12,3 +12,6 @@
 [x] Decompose Conditional
 [x] Remove Control Flag
 [x] Replace Conditional with Guard Clauses
+
+## Simplifying Method Calls
+[x] Add Parameter
